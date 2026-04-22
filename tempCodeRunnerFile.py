@@ -1,1 +1,1 @@
-python3 ifelse.py
+python3 forloop.py
