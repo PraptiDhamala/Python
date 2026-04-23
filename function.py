@@ -9,7 +9,12 @@ def calcugmean(c,d):
     mean=(c*d)/(c+d)
     print(mean)
 
-a=20
+a=20 
 b=30
 comparenum(a,b)
 calcugmean(a,b)
+
+
+# function argument
+
+ 
