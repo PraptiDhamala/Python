@@ -37,3 +37,9 @@ print(l[1:10])
 print(l[1:10:2]) 
 print(l[1:10:1]) 
 # print(l[1:10:0]) 
+
+#jump index yesle k garcha vane 1 to 7 jancha ani 2 unit jump gardai print garcha 
+
+# list comprehension
+lst=[i for i in range(3)]
+print(lst)
