@@ -1,0 +1,12 @@
+l=[7,6,2,6]
+print(l)
+l.append(4)
+print(l)
+l.sort()
+print(l)
+l.sort(reverse=True)
+print(l)
+l.reverse()
+print(l)
+print(l.index(6))
+print(l.count(6))
