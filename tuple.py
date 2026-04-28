@@ -10,3 +10,6 @@ print(x)
 print(tup[0])
 print(tup[1])
 print(tup[2])
+print(tup[-1])
+if 6 in tup:
+    print("present in tuple")
