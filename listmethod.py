@@ -10,3 +10,5 @@ l.reverse()
 print(l)
 print(l.index(6))
 print(l.count(6))
+l[0]=90
+print(l)
