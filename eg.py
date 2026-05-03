@@ -19,11 +19,6 @@ def main():
             for index, task in enumerate(tasks, start=1):
                 print(f"{index}. {task}")
 
-        elif choice == '2':
-            new_task = input("Enter the task: ")
-            tasks.append(new_task)
-            print("Task added!")
-
         elif choice == '3':
             if not tasks:
                 print("Nothing to remove.")
