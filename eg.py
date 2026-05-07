@@ -1,7 +1,3 @@
-# Simple Python example
-
-# Print a message
-print("Hello, world!")
 
 # Do a calculation
 a = 5
