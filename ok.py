@@ -1,4 +1,21 @@
-name = input("What is your name? ")
-age = int(input("How old are you? "))
+for i in range(9):
+    print(i)
+else:
+    print("Cannot find i")
 
-print("Hello,", name)
+
+for i in range(9):
+    print(i)
+    if i == 4:
+        break
+else:
+    print("Cannot find i")
+
+i=0
+while i<9:
+    i=i+1
+    print(i)
+    if i == 4:
+        break
+else:
+    print("Cannot find i")
