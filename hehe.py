@@ -4,4 +4,4 @@ b = int(input("Enter second number: "))
 if a > b:
     print(a, "is larger")
 else:
-    print(b, "is larger")
+    print(a, "is not larger")
