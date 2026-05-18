@@ -23,7 +23,7 @@ def func1():
     finally:
         print("Whatever the situation I am always executed") #function execute huda ni huncha 
 
-    # print("Whatever the situation I am always executed") #yo hunna
+    print("Whatever the situation I am always executed") #yo hunna
 
 x=func1()
 print(x)
