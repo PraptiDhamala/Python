@@ -1,0 +1,3 @@
+import papu
+
+papu.welcome()
