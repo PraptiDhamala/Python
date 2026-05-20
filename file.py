@@ -3,7 +3,7 @@ print(f)
 text=f.read()
 print(text)
 f.close()
-r is the default mode
+# r is the default mode
 
 f=open('myfile.txt','w') # r-------->reading, w-------->writing, a----------->append
 print(f)
