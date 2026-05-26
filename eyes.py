@@ -44,7 +44,7 @@ for i, (ex, ey, ew, eh) in enumerate(eyes):
 
             _, threshold = cv2.threshold(
                 eye_gray,
-                40,
+                30,
                 255,
                 cv2.THRESH_BINARY_INV
             )
@@ -84,7 +84,7 @@ for i, (ex, ey, ew, eh) in enumerate(eyes):
 
                 eye_center = ew // 2
 
-                if pupil_x < eye_center - 10:
+                if pupil_x < eye_center - 4:
                     text = "Looking Left"
 
                 elif pupil_x > eye_center + 10:
