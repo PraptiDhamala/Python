@@ -7,9 +7,6 @@ cap = cv2.VideoCapture("eyehehe.mp4")
 while True:
     ret, frame = cap.read()
 #    roi = frame[50:2000, 200:1300] #from top to bottom, left to right, these number
-    if not ret:
-        print("Video ended  be read.")
-        break
     roi = frame[100:1200, 50:1300] #from top to bottom, left to right, these number 
     rows, cols, _ = roi.shape
     gray_roi = cv2.cvtColor(roi,cv2.COLOR_BGR2GRAY) #gray pardincha video
