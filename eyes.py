@@ -35,7 +35,8 @@ while True:
 
         eyes = eye_cascade.detectMultiScale(face_roi_gray)
 
-for i, (ex, ey, ew, eh) in enumerate(eyes):
+        for (ex, ey, ew, eh) in eyes:
+
             # Eye ROI
             eye = face_roi_color[ey:ey+eh, ex:ex+ew]
             eye_gray = cv2.cvtColor(eye, cv2.COLOR_BGR2GRAY)
@@ -44,7 +45,7 @@ for i, (ex, ey, ew, eh) in enumerate(eyes):
 
             _, threshold = cv2.threshold(
                 eye_gray,
-                30,
+                35,
                 255,
                 cv2.THRESH_BINARY_INV
             )
@@ -84,24 +85,25 @@ for i, (ex, ey, ew, eh) in enumerate(eyes):
 
                 eye_center = ew // 2
 
-                if pupil_x < eye_center - 4:
+                if pupil_x < eye_center - 10:
                     text = "Looking Left"
 
                 elif pupil_x > eye_center + 10:
                     text = "Looking Right"
-                text_y = 50 + (i * 40)
+
                 else:
                     text = "Looking Center"
 
                 cv2.putText(
-                frame,
-                f"Eye {i+1}: {text}",
-                (50, text_y),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                1,
-                (255,0,0),
-                2
+                    frame,
+                    text,
+                    (50,50),
+                    cv2.FONT_HERSHEY_SIMPLEX,
+                    1,
+                    (255,0,0),
+                    2
                 )
+
                 break
 
             cv2.imshow("Threshold", threshold)

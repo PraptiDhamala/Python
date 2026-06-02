@@ -8,7 +8,7 @@ while True:
     ret, frame = cap.read()
 #    roi = frame[50:2000, 200:1300] #from top to bottom, left to right, these number
     if not ret:
-        print("Video ended or cannot be read.")
+        print("Video ended  be read.")
         break
     roi = frame[100:1200, 50:1300] #from top to bottom, left to right, these number 
     rows, cols, _ = roi.shape
