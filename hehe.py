@@ -3,5 +3,6 @@ b = int(input("Enter second number: "))
 
 if a > b:
     print(a, "is larger")
-else:
+elif:
     print(a, "is not larger")
+    
