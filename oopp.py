@@ -8,9 +8,8 @@ class Student:
         print("Age:", self.age)
 
 
-# Creating objects
-student1 = Student("Prapti", 20)
-student2 = Student("Anusha", 21)
+student1 = Student("Pranjal", 17)
+student2 = Student("Prakriti", 21)
 
 student1.display()
 student2.display()
