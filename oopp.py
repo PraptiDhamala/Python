@@ -1,15 +1,17 @@
 class Student:
-    def __init__(self, name, age):
+    def __init__(self, name, age,address):
         self.name = name
         self.age = age
+        self.address=address
 
     def display(self):
         print("Name:", self.name)
         print("Age:", self.age)
+        print("Address:", self.address)
 
 
-student1 = Student("Pranjal", 17)
-student2 = Student("Prakriti", 21)
+student1 = Student("Pranjal", 17,"Suncity")
+student2 = Student("Prakriti", 21,"Ujjwal tara")
 
 student1.display()
 student2.display()
