@@ -10,7 +10,7 @@ class Student:
         print("Address:", self.address)
 
 
-student1 = Student("Pranjal", 17,"Suncity")
+student1 = Student("Pranjal", 17,"USA")
 student2 = Student("Prakriti", 21,"Ujjwal tara")
 
 student1.display()
