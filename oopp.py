@@ -12,6 +12,7 @@ class Student:
 
 student1 = Student("Pranjal", 17,"USA")
 student2 = Student("Prakriti", 21,"AUS")
+student3 = Student("Prapti", 24,"UK")
 
 student1.display()
 student2.display()
