@@ -17,3 +17,5 @@ student4 = Student("Sanjit", 24,"UK")
 
 student1.display()
 student2.display()
+student3.display()
+student4.display()
