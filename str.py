@@ -8,4 +8,4 @@ print("Multiplication:", a * b)
 if b != 0:
     print("Division:", a / b)
 else:
-    print("Cannot divide by zero")
+    print("Cannot be divide by zero")
