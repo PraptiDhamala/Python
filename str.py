@@ -1,6 +1,6 @@
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-c = float(input("Enter third number: "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
 
 print("ADD:", a + b + c)
 print("Subtraction:", a - b - c)
