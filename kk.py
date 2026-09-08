@@ -1,4 +1,4 @@
-def check_even_odd(n):
+def check_even_orodd(n):
     if n % 2 == 0:
         return "Even"
     else:
