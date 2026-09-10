@@ -1,8 +1,8 @@
 def check_even_orodd(n):
     if n % 2 == 0:
-        return "Even"
+        return "even"
     else:
-        return "Odd"
+        return "odd"
 
 num = int(input("Enter a number: "))
 print(check_even_odd(num))
