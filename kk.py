@@ -1,5 +1,5 @@
 def check_even_orodd(n):
-    if n % 2 == 0:
+    if n % 4 == 0:
         return "even"
     else:
         return "odd"
