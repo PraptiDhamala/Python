@@ -5,4 +5,4 @@ def check_even_orodd(n):
         return "odd"
 
 num = int(input("Enter a number: "))
-print(check_even_odd(num))
+print(check_even_orodd(num))
