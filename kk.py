@@ -4,5 +4,5 @@ def check_even_orodd(n):
     else:
         return "odd"
 
-num = int(input("Enter a number: "))
+num = float(input("Enter a number: "))
 print(check_even_orodd(num))
