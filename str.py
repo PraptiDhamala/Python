@@ -3,7 +3,7 @@ b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
 d = int(input("Enter fourth number: "))
 
-print("ADD:", a + b + c)
+print("ADD:", a + b + c+d)
 print("Subtraction:", a - b - c)
 print("Multiplication:", a * b * c)
 print("Factorization:", a!c)
