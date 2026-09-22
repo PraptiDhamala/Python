@@ -4,8 +4,8 @@ c = int(input("Enter third number: "))
 d = int(input("Enter fourth number: "))
 
 print("ADD:", a + b + c+d)
-print("Subtraction:", a - b - c)
-print("Multiplication:", a * b * c)
+print("Subtraction:", a - b - c-d)
+print("Multiplication:", a * b * c*d)
 print("Factorization:", a!c)
 
 if b != 0:
