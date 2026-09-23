@@ -9,6 +9,6 @@ print("Multiplication:", a * b * c*d)
 print("Factorization:", a!c)
 
 if b != 0:
-    print("Division:", a / b / c)
+    print("Division:", a / b / c/d)
 else:
     print("Cannot be divide by zero")
