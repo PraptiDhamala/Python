@@ -12,8 +12,8 @@ print(unique_numbers)  # Output: {1, 2, 3, 4}
 
 # Dictionary (Key-Value pairs)
 person = {
-    "name": "Bob",
+    "name": "PRAPTI",
     "age": 30,
     "city": "Kathmandu"
 }
-print(person["name"])  # Output: Bob
+print(person["name"])  # Output: PRAPTI
